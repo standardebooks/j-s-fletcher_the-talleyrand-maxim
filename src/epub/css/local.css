@@ -30,3 +30,15 @@ footer{
 	margin: 1em 0;
 	text-align: center;
 }
+
+#chapter-21 ol{
+	list-style: none;
+}
+
+#chapter-21 li{
+	padding-left: 1.5em;
+}
+
+#chapter-21 li > p{
+	text-indent: -2.5em;
+}
