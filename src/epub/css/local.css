@@ -24,7 +24,47 @@ footer{
 }
 /* end letters */
 
-/* bespoke styling */
+/* bespoke styling begins */
+/* "Bracketed" layout facsimile: 
+   falls back to continuous left-aligned paragraphs, differentiating from rest of footer;
+   flexbox support brings side-by-side presentation with 1px border between. */
+/* ...fallback: */
+#chapter-2 div p{
+	margin-bottom: .5em;
+	text-align: left;
+}
+
+#chapter-2 div p:first-child{
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+#chapter-2 div p:last-child{
+	text-indent: 0;
+}
+
+/* ...@supports flexbox: */
+@supports((display: inline-flex) and (display: flex)){
+	#chapter-2 div{
+		display: flex;
+		flex-direction: row;
+	}
+
+	#chapter-2 div p:first-child{
+		border-right: 1px solid black;
+		padding-right: 1em;
+		text-indent: -1em;
+		width: 50%;
+	}
+
+	#chapter-2 div p:last-child{
+		align-self: center;
+		padding-left: 1em;
+		width: 50%;
+	}
+}
+/* end "Bracketed" layout facsimile */
+
 #chapter-10 header > p:first-of-type{
 	font-variant: small-caps;
 	margin: 1em 0;
@@ -42,3 +82,4 @@ footer{
 #chapter-21 li > p{
 	text-indent: -2.5em;
 }
+/* bespoke styling ends */
