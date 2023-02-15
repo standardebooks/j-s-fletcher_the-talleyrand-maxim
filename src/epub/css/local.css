@@ -11,7 +11,6 @@ footer{
 	text-align: right;
 }
 
-[epub|type~="z3998:salutation"] + p,
 [epub|type~="z3998:letter"] header + p{
 	text-indent: 0;
 }
@@ -31,7 +30,7 @@ footer{
 /* ...fallback: */
 #chapter-2 div p{
 	margin-bottom: .5em;
-	text-align: left;
+	text-align: initial;
 }
 
 #chapter-2 div p:first-child{
