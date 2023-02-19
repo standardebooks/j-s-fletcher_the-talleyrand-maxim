@@ -33,17 +33,16 @@
 		<meta property="term" refines="#subject-1">sh85037260</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Mystery</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">The estate of a deceased magnate falls prey to an unscrupulous administrator.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;The “Talleyrand Maxim” holds that “With time and patience, the mulberry leaf is turned into satin.” The adage has the character of guidance for life for an ambitious legal clerk, Linford Pratt. The moment comes when a “mulberry leaf” falls into Pratt’s hands in the form of the will of a wealthy local industrial magnate, undiscovered at the time of his death. Realizing that possession of it gives him leverage over the natural beneficiaries—the late man’s nephew and niece, and their mother—Pratt sets to work to transform it into his “satin.” As wily as he proves to be, his aspirations face complications, for it seems his possession of the will was not so secret as he supposed.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/j-s-fletcher"&gt;J. S. Fletcher&lt;/a&gt; is best known for his detective fiction, but &lt;i&gt;The Talleyrand Maxim&lt;/i&gt; is not a typical whodunit. Pratt’s culpability is never hidden from the reader, nor is there a traditional “sleuth.” The suspense lies, rather, in whether he will pull it off, as the suspicions of other interested parties deepen.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/9834</dc:source>
 		<dc:source>https://archive.org/details/talleyrandmaximb00flet</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/j-s-fletcher_the-talleyrand-maxim</meta>
 		<dc:creator id="author">J. S. Fletcher</dc:creator>
 		<meta property="file-as" refines="#author">Fletcher, J. S.</meta>
@@ -51,10 +50,11 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/J._S._Fletcher</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n87819285</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Antti Favén</dc:contributor>
+		<meta property="file-as" refines="#artist">Favén, Antti</meta>
+		<meta property="se:name.person.full-name" refines="#author">Yrjö Antti Favén</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://fi.wikipedia.org/wiki/Antti_Fav%C3%A9n</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/no2008082627</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Juliet Sutherland</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Sutherland, Juliet</meta>
