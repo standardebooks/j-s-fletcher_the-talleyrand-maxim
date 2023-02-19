@@ -53,7 +53,6 @@
 		<dc:contributor id="artist">Antti Favén</dc:contributor>
 		<meta property="file-as" refines="#artist">Favén, Antti</meta>
 		<meta property="se:name.person.full-name" refines="#author">Yrjö Antti Favén</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://fi.wikipedia.org/wiki/Antti_Fav%C3%A9n</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/no2008082627</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Juliet Sutherland</dc:contributor>
