@@ -43,14 +43,14 @@ footer{
 }
 
 /* ...@supports flexbox: */
-@supports((display: inline-flex) and (display: flex)){
+@supports(display: flex){
 	#chapter-2 div{
 		display: flex;
 		flex-direction: row;
 	}
 
 	#chapter-2 div p:first-child{
-		border-right: 1px solid black;
+		border-right: 1px solid;
 		padding-right: 1em;
 		text-indent: -1em;
 		width: 50%;
@@ -66,8 +66,6 @@ footer{
 
 #chapter-10 header p{
 	font-variant: small-caps;
-	margin: 1em;
-	text-align: center;
 }
 
 /* bespoke styling ends */
