@@ -2,7 +2,11 @@
 <se-lint-ignore>
 	<file path="chapter-21.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-019</code>
+			<reason>Reported speech within extended dialog in OL: ignore.</reason>
+		</ignore>
+		<ignore>
+			<code>y-021</code>
 			<reason>Reported speech within extended dialog in OL: ignore.</reason>
 		</ignore>
 	</file>
