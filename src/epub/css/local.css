@@ -64,6 +64,10 @@ footer{
 }
 /* end "Bracketed" layout facsimile */
 
+.telegram{
+	font-variant: all-small-caps;
+}
+
 #chapter-10 header p{
 	font-variant: small-caps;
 }
