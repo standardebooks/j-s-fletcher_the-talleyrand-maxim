@@ -41,7 +41,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/9834</dc:source>
 		<dc:source>https://archive.org/details/talleyrandmaximb00flet</dc:source>
-		<meta property="se:word-count">74620</meta>
+		<meta property="se:word-count">74621</meta>
 		<meta property="se:reading-ease.flesch">73.78</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/j-s-fletcher_the-talleyrand-maxim</meta>
 		<dc:creator id="author">J. S. Fletcher</dc:creator>
