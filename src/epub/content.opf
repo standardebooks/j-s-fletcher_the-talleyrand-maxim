@@ -56,7 +56,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Antti Favén</dc:contributor>
 		<meta property="file-as" refines="#artist">Favén, Antti</meta>
-		<meta property="schema:alternateName" refines="#author">Yrjö Antti Favén</meta>
+		<meta property="schema:alternateName" refines="#artist">Yrjö Antti Favén</meta>
 		<link href="https://id.loc.gov/authorities/names/no2008082627.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Juliet Sutherland</dc:contributor>
@@ -68,6 +68,7 @@
 		<dc:contributor id="producer-1">David Reimer</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Reimer, David</meta>
 		<link href="https://github.com/dajare" refines="#producer-1" rel="schema:url"/>
+		<link href="https://id.loc.gov/authorities/names/n92075987.html" refines="#producer-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
